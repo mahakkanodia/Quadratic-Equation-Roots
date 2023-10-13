@@ -34,33 +34,59 @@ void main()
         }
         <br>
         else 
+          <br>
           {
+            <br>
             d=b*b-(4*a*c);
+            <br>
             if(d>0)
+            <br>
             {
+                <br>
                 printf("roots are real and distinct");
+                <br>
                 alpha= -b + sqrt (d)/(2*a);
+                <br>
                 beta = -b - sqrt (d)/(2*a);
             }
+            <br>
             if (d==0)
+            <br>
             {
+                <br>
                 printf("roots are real and distinct \n");
+                <br>
+                <br>
                 alpha = -b/(2*a);
+                <br>
                 beta = alpha;
+                <br>
             }
+            <br>
             printf("roots of QE are x1=%f and x2=%f", alpha,beta);
+        <br>
         }
+    <br>
     }
+        <br>
         else
+        <br>
         {
+            <br>
             printf("roots are complex or imaginary");
+            <br>
             xreal= -(b/(2*a));
+            <br>
             ximg= -(sqrt(d)/(2*a));
+            <br>
             printf("first complex root = %f+i%f", xreal,ximg);
+            <br>
             printf("second complex root = %f-i%f", xreal,ximg);
-
-        }
+            <br>
+            }
+            <br>
         getch();
+        <br>
     }
 
 
