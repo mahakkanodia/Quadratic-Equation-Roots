@@ -1,23 +1,40 @@
 # Quadratic-Equation-Roots
 The program takes coefficients of quadratic equation as input and outputs roots of the equation.
+<br>
 #include<stdio.h>
+<br>
 #include<conio.h>
+<br>
 #include<math.h>
+<br>
 void main()
+<br>
 {
+<br>
     float a,b,c,d,x,xreal,ximg,alpha,beta;
+    <br>
     printf("\n enter the coefficients of quadratic equation a,b and c \n");
+    <br>
     scanf("%f %f %f", &a,&b,&c);
+    <br>
     if (a==0)
+    <br>
     {
+    <br>
         printf("not a Q.E.");
+        <br>
         if (b!=0)
+        <br>
         {
+        <br>
             x<- -c/b;
+            <br>
             printf ("x=%f",x);
+            <br>
         }
+        <br>
         else 
-        {
+          {
             d=b*b-(4*a*c);
             if(d>0)
             {
